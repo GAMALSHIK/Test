@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home_Item"
+        android:icon="@drawable/ic_nav_home"
+        android:title="Home"
+        android:iconTint="@color/green_1"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/statics_Item"
+        android:icon="@drawable/ic_nav_statics"
+        android:title="Statics"
+        android:iconTint="@color/green_1"
+        android:checkable="false"
+        android:enabled="false"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/routines_Item"
+        android:icon="@drawable/ic_nav_routines"
+        android:title="Routiens"
+        android:iconTint="@color/green_1"
+        android:checkable="false"
+        android:enabled="false"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/settings_Item"
+        android:icon="@drawable/ic_nav_settings"
+        android:title="Settings"
+        android:iconTint="@color/green_1"
+        app:showAsAction="always"/>
+
+</menu>
